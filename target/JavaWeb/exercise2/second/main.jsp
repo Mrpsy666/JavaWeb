@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>梯形面积计算器</h1>
-    <form action="main.jsp" method="post">
+    <form action="<%=request.getContextPath()%>/exercise2/second/main.jsp" method="post">
         上底: <input type="number" name="top" required><br>
         下底: <input type="number" name="bottom" required><br>
         高: <input type="number" name="height" required><br>
