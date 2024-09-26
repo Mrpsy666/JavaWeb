@@ -7,8 +7,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "AssignmentServlet", urlPatterns = {"/assignment"})
-public class AssignmentServlet extends HttpServlet {
+@WebServlet(name = "exercise2Servlet", urlPatterns = {"/exercise2"})
+public class Exercise2 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -21,12 +21,13 @@ public class AssignmentServlet extends HttpServlet {
         
         
         if ("1".equals(assignmentId)) {
-            request.getRequestDispatcher("/assignments/assignment1.jsp").forward(request, response);
+            request.getRequestDispatcher("/exercise2/first/inputName.jsp").forward(request, response);
         } else if ("2".equals(assignmentId)) {
-            request.getRequestDispatcher("/assignments/assignment2.jsp").forward(request, response);
+            request.getRequestDispatcher("/exercise2/second/main.jsp").forward(request, response);
         } else {
             response.getWriter().println("<h1>未找到作业</h1>");
         }
     }
+
 }
 
