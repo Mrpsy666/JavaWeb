@@ -33,6 +33,14 @@
               </ul>
             </td>
             </tr>
+            <tr>
+                <td>实验3</td>
+                <td>
+                    <ul>
+                        <li><a href="exercise3">实验3 注册页面</a></li>
+                    </ul>
+                </td>
+            </tr>
             <td>未完</td>
             <td>
               待续
