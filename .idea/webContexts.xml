@@ -5,6 +5,10 @@
       <map>
         <entry key="file://$PROJECT_DIR$/src/main/webapp/exercise2/first/people.jsp" value="file://$PROJECT_DIR$/src/main/webapp/exercise2/first" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/exercise2/second/lader.jsp" value="file://$PROJECT_DIR$/src/main/webapp/exercise2/second" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/exercise3/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/exercise3" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/exercise3/loginProcess.jsp" value="file://$PROJECT_DIR$/src/main/webapp/exercise3" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/exercise3/showReg.jsp" value="file://$PROJECT_DIR$/src/main/webapp/exercise3" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
       </map>
     </option>
   </component>

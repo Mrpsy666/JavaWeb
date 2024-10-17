@@ -17,7 +17,7 @@ public class Exercise3 extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
 
-        request.getRequestDispatcher("/exercise3/reg.jsp").forward(request, response);
+        request.getRequestDispatcher("/exercise3/index.jsp").forward(request, response);
     }
 
 }

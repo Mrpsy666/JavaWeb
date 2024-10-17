@@ -37,7 +37,7 @@
                 <td>实验3</td>
                 <td>
                     <ul>
-                        <li><a href="exercise3">实验3 注册页面</a></li>
+                        <li><a href="exercise3">实验3 登录注册页面（2024-10-17）</a></li>
                     </ul>
                 </td>
             </tr>
